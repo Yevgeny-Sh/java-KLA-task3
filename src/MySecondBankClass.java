@@ -37,6 +37,8 @@ public class MySecondBankClass {
                 }
             } else {
                 throw new NegativeNumberException("Negative or zero numbers are not allowed.");
+                //there is also Illegal Argument Exception if needed:
+                //throw new IllegalArgumentException("Only Positive Numbers & no Letters Please!");
             }
         } catch (Exception e ){
            // System.out.println("Exception: " + e.getMessage());
